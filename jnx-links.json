@@ -1,0 +1,457 @@
+{
+  "schema": 1,
+  "motd": {
+    "enabled": false,
+    "message": ""
+  },
+  "app": {
+    "version": "2.0.0",
+    "url": "https://github.com/vendashson-rgb/JNX-Updater/releases/latest/download/jnx-update.zip"
+  },
+  "pack": {
+    "version": "23.0.0-1",
+    "atmosphere": "1.12.0",
+    "date": "07-10-2026",
+    "size": "104 MB",
+    "url": "https://github.com/vendashson-rgb/JNX/releases/download/23.0.0-1/JNX.23.0.0-1.zip",
+    "sha256": "a623067f8ce6b0baafb7f5c12ebf689f66f2d799ffd3555dbe55ad704a7206d7",
+    "changelog": "* Primeira versão pública do JNX para o firmware 23.0.x.\n* Atmosphère 1.12.0 com splash JNX.\n* Hekate v6.5.4 + Nyx em português do Brasil.\n* Sphaira, AIO Switch Updater, Goldleaf, Checkpoint, JKSV, NX-Shell, NX-Activity-Log.\n* Ultrahand, sys-clk, Status Monitor, EdiZon, emuiibo, Mission Control, sys-con e TegraExplorer."
+  },
+  "firmwares": [],
+  "translations": [],
+  "mods": [],
+  "toolbox": [
+    {
+      "name": "Akira v0.6.3",
+      "size": "12.7 MB",
+      "desc": "Um fork do Chiaki para Nintendo Switch.",
+      "url": "https://github.com/xlanor/akira/releases/download/v0.6.3/akira-0.6.3.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Amiibo Generator v2.2.1",
+      "size": "1.51 MB",
+      "desc": "Gera todos (ou uma seleção de) Amiibos diretamente no seu Nintendo Switch.",
+      "url": "https://github.com/yusufakg/AmiiboGenerator/releases/download/v2.2.1/AmiiboGenerator.nro",
+      "type": "nro",
+      "dest": "/switch/AmiiboGenerator/AmiiboGenerator.nro"
+    },
+    {
+      "name": "Amiigo v2.4.1",
+      "size": "8.42 MB",
+      "desc": "UI de Emulação de Amiibo para Nintendo Switch",
+      "url": "https://github.com/CompSciOrBust/Amiigo/releases/download/2.4.1/Amiigo.nro",
+      "type": "nro",
+      "dest": "/switch/Amiigo.nro"
+    },
+    {
+      "name": "Awoo Installer v1.3.6",
+      "size": "6.02 MB",
+      "desc": "Instalador de NSP/NSZ/XCI.",
+      "url": "https://github.com/Huntereb/Awoo-Installer/releases/download/1.3.6/Awoo-Installer.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "BattleShip (Super Smash Bros. Port) v1.3",
+      "size": "5.73MB",
+      "desc": "Port Nativo do jogo Super Smash Bros. de Nintendo 64 para Nintendo Switch",
+      "url": "https://github.com/delsonazevedo/BattleShip-Switch/releases/download/1.3/BattleShip-Switch.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Dekopon v2.2.2",
+      "size": "35.2 MB",
+      "desc": "Emulador de 3DS baseado no emulador Azahar",
+      "url": "https://github.com/PalindromicBreadLoaf/dekopon/releases/download/v2.2.2/dekopon.nro",
+      "type": "nro",
+      "dest": "/switch/dekopon/dekopon.nro"
+    },
+    {
+      "name": "Dusklight (Twilight Princess Port) v1.4.1.0-test ( Tico version )",
+      "size": "49.5 MB",
+      "desc": "Port do Projeto Dusk para Nintendo Switch (Rom não inclusa)",
+      "url": "https://github.com/givethesourceplox/dusklight-NX/releases/download/v1.4.1.0-test/dusk.nro",
+      "type": "nro",
+      "dest": "/switch/dusk/dusk.nro"
+    },
+    {
+      "name": "Dusklight (Twilight Princess Port) v1.4.3 ( HayatoG version )",
+      "size": "51.6 MB",
+      "desc": "Port do Projeto Dusk para Nintendo Switch (Rom não inclusa)",
+      "url": "https://github.com/HayatoG/dusklight/releases/download/switch-v1.4.3-20260702/dusklight.nro",
+      "type": "nro",
+      "dest": "/switch/dusklight.nro"
+    },
+    {
+      "name": "Edizon SE v3.8.37",
+      "size": "14.9 MB",
+      "desc": "Editor de saves e cheats para Nintendo Switch.",
+      "url": "https://github.com/Lightos1/EdiZon-SE/releases/download/3.8.37/EdiZon.nro",
+      "type": "nro",
+      "dest": "/switch/Edizon/Edizon.nro"
+    },
+    {
+      "name": "Fizeau v2.8.2+r7",
+      "size": "848 KB",
+      "desc": "Ajuste a cor da tela do seu Nintendo Switch.",
+      "url": "https://github.com/ppkantorski/Fizeau/releases/download/v2.8.2%2Br7/Fizeau.ovl",
+      "type": "ovl",
+      "dest": "/switch/.overlays/Fizeau.ovl"
+    },
+    {
+      "name": "FPSLocker v3.3.2",
+      "size": "1.32 MB",
+      "desc": "Overlay para controle de FPS.",
+      "url": "https://github.com/masagrator/FPSLocker/releases/download/3.3.2/FPSLocker.ovl",
+      "type": "ovl",
+      "dest": "/switch/.overlays/FPSLocker.ovl"
+    },
+    {
+      "name": "FTPD Pro v3.2.1",
+      "size": "1.46 MB",
+      "desc": "Servidor FTP para Nintendo Switch.",
+      "url": "https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd.nro",
+      "type": "nro",
+      "dest": "/switch/ftpd/ftpd.nro"
+    },
+    {
+      "name": "Green-nx v1.0.30",
+      "size": "22.3 MB",
+      "desc": "Homebrew para stream via Xbox Cloud Gaming.",
+      "url": "https://github.com/rmrf404/green-nx/releases/download/v1.0.30/green-nx.nro",
+      "type": "nro",
+      "dest": "/switch/green-nx.nro"
+    },
+    {
+      "name": "HB App Store v2.3.2",
+      "size": "23 MB",
+      "desc": "Loja de aplicativos homebrew.",
+      "url": "https://github.com/DefenderOfHyrule/hb-appstore/releases/download/v2.3.2/appstore.nro",
+      "type": "nro",
+      "dest": "/switch/appstore/appstore.nro"
+    },
+    {
+      "name": "Hekate Toolbox v4.0.4",
+      "size": "2.61 MB",
+      "desc": "Habilite e desabilite sys-modules do seu Nintendo Switch.",
+      "url": "https://github.com/WerWolv/Hekate-Toolbox/releases/download/v4.0.4/HekateToolbox.nro",
+      "type": "nro",
+      "dest": "/switch/HekateToolbox/HekateToolbox.nro"
+    },
+    {
+      "name": "Ipswitch v0.2.3",
+      "size": "155 KB",
+      "desc": "Ferramenta para aplicar patches IPS em homebrews.",
+      "url": "https://github.com/StevensND/ipswitch/releases/download/0.2.3/fw21_ipswitch.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "JKSV 12-02-2025",
+      "size": "9.66 MB",
+      "desc": "Gerenciador de saves para Nintendo Switch.",
+      "url": "https://github.com/J-D-K/JKSV/releases/download/12%2F02%2F2025/JKSV.nro",
+      "type": "nro",
+      "dest": "/switch/JKSV/JKSV.nro"
+    },
+    {
+      "name": "LunaxNX v0.3.3",
+      "size": "12.6 MB",
+      "desc": "Cliente de Xbox Remote Play, Xbox Cloud Gaming e PlayStation Remote Play para Nintendo Switch",
+      "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.3/LunarNX.nro",
+      "type": "nro",
+      "dest": "/switch/LunarNX/LunarNX.nro"
+    },
+    {
+      "name": "M.I.L. Manager v1.0",
+      "size": "2.74 MB",
+      "desc": "Gerenciador de Traduções da Equipe de Tradução M.I.L.",
+      "url": "https://github.com/nekkk/mil-manager/releases/download/v1.0/mil_manager.nro",
+      "type": "nro",
+      "dest": "/switch/mil_manager/mil_manager.nro"
+    },
+    {
+      "name": "Master Volume v1.2.3",
+      "size": "425 KB",
+      "desc": "Controle de volume para Nintendo Switch.",
+      "url": "https://github.com/averne/MasterVolume/releases/download/v1.2.3/MasterVolume-1.2.3.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Meruem v0.19.0",
+      "size": "42.7 MB",
+      "desc": "Homebrew do Meruem para Nintendo Switch. Ele permite ler mangas, HQs e livros da plataforma Meruem diretamente no console, com login, favoritos, continuar lendo, leitura offline/local, zoom por toque e atualizacoes pelo proprio app.",
+      "url": "https://github.com/Tonsoaresmt/meruem-switch/releases/download/v0.19.0/Meruem.nro",
+      "type": "nro",
+      "dest": "/switch/Meruem/Meruem.nro"
+    },
+    {
+      "name": "Mission Control v0.15.2",
+      "size": "190 KB",
+      "desc": "Suporte a controles Bluetooth adicionais via sysmodule.",
+      "url": "https://github.com/ndeadly/MissionControl/releases/download/v0.15.2/MissionControl-0.15.2-master-d3941d43.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Moonlight-Switch v1.5.0",
+      "size": "16.9 MB",
+      "desc": "Port do Moonlight para Nintendo Switch",
+      "url": "https://github.com/XITRIX/Moonlight-Switch/releases/download/v1.5.0/Moonlight-Switch.nro",
+      "type": "nro",
+      "dest": "/switch/Moonlight-Switch/Moonlight-Switch.nro"
+    },
+    {
+      "name": "NexPS v1.1",
+      "size": "1.4 MB",
+      "desc": "Gerenciador de jogos de PSP e PSX com integração amigável com o emulador Tico.",
+      "url": "https://github.com/joaqmiu/NexPS/releases/download/v1.1/NexPS.nro",
+      "type": "nro",
+      "dest": "/switch/NexPS/NexPS.nro"
+    },
+    {
+      "name": "NPShop v2.6.1",
+      "size": "62 MB",
+      "desc": "Loja de homebrews para Nintendo Switch.",
+      "url": "https://github.com/arthur-moebios/NPShopHomebrew/releases/download/v2.6.1/NPShopSwitch.nro",
+      "type": "nro",
+      "dest": "/switch/NPShop/NPShopSwitch.nro"
+    },
+    {
+      "name": "NX Mod Manager v3.9.9",
+      "size": "6.35 MB",
+      "desc": "Gerenciador de Mods para Nintendo Switch.",
+      "url": "https://github.com/TOM-BadEN/NX-Mod-Manager/releases/download/v3.9.9/NX-Mod-Manager.nro",
+      "type": "nro",
+      "dest": "/switch/NX-Mod-Manager/NX-Mod-Manager.nro"
+    },
+    {
+      "name": "NX Shell v4.0.2",
+      "size": "8.51 MB",
+      "desc": "Gerenciador de arquivos para Nintendo Switch.",
+      "url": "https://github.com/DefenderOfHyrule/NX-Shell/releases/download/4.02/NX-Shell.nro",
+      "type": "nro",
+      "dest": "/switch/NX-Shell/NX-Shell.nro"
+    },
+    {
+      "name": "NX Theme Installer v3.0.1",
+      "size": "9.91 MB ",
+      "desc": "Instalador de temas para Nintendo Switch.",
+      "url": "https://github.com/exelix11/SwitchThemeInjector/releases/download/nxt-3.0.1/NXThemesInstaller.nro",
+      "type": "nro",
+      "dest": "/switch/NXThemesInstaller/NXThemesInstaller.nro"
+    },
+    {
+      "name": "NX-FanControl v1.0.3+r4",
+      "size": "680 KB",
+      "desc": "Controle o cooler do seu Nintendo Switch.",
+      "url": "https://github.com/ppkantorski/NX-FanControl/releases/download/1.0.3%2Br4/NX-FanControl.ovl",
+      "type": "ovl",
+      "dest": "/switch/.overlays/NX-FanControl.ovl"
+    },
+    {
+      "name": "NX-Ovlloader v2.0.2",
+      "size": "84.5 KB ",
+      "desc": "Carregador de overlays para Nintendo Switch.",
+      "url": "https://github.com/ppkantorski/nx-ovlloader/releases/download/v2.0.2/nx-ovlloader.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Nxdumptool Rewrite",
+      "size": "2.58 MB",
+      "desc": "Ferramenta para dump de títulos do Nintendo Switch.",
+      "url": "https://github.com/DarkMatterCore/nxdumptool/releases/download/rewrite-prerelease/nxdt_rw_poc.nro",
+      "type": "nro",
+      "dest": "/switch/nxdt_rw_poc/nxdt_rw_poc.nro"
+    },
+    {
+      "name": "OpenBOR v3.0.7141 (Switch)",
+      "size": "8.18 MB",
+      "desc": "Emulador de OpenBOR para Nintendo Switch",
+      "url": "https://github.com/delsonazevedo/openbor/releases/download/v3.0.7141/OpenBOR.nro",
+      "type": "nro",
+      "dest": "/switch/OpenBOR/OpenBOR.nro"
+    },
+    {
+      "name": "Pipensx v1.5.1",
+      "size": "17.3 MB",
+      "desc": "Client Torrent para Nintendo Switch com diversas funcionalidades e controle através de HTTP.",
+      "url": "https://github.com/i3sey/pipensx/releases/download/1.6.0/pipensx.nro",
+      "type": "nro",
+      "dest": "/switch/pipensx/pipensx.nro"
+    },
+    {
+      "name": "pkHouse v1.10.6",
+      "size": "7.74 MB",
+      "desc": "Gerenciador de pokemons entre jogos da franquia.",
+      "url": "https://github.com/Insektaure/pkHouse/releases/download/1.10.6/pkHouse.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "ReverseNX-RT v2.2.1",
+      "size": "308 KB",
+      "desc": "Overlay para alternar modo dock/portátil.",
+      "url": "https://github.com/masagrator/ReverseNX-RT/releases/download/2.2.1/ReverseNX-RT-ovl.ovl",
+      "type": "ovl",
+      "dest": "/switch/.overlays/ReverseNX-RT-ovl.ovl"
+    },
+    {
+      "name": "SaltyNX v1.9.3",
+      "size": "215 KB",
+      "desc": "Framework para mods e plugins.",
+      "url": "https://github.com/masagrator/SaltyNX/releases/download/1.9.3/SaltyNX.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Sphaira v1.0.7",
+      "size": "2.07 MB",
+      "desc": "Menu de homebrews customizado para Nintendo Switch.",
+      "url": "https://github.com/NaGaa95/sphaira/releases/download/1.0.7/sphaira.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Status Monitor Overlay 1.4.1+r4",
+      "size": "1.17 MB",
+      "desc": "Monitor de status do sistema.",
+      "url": "https://github.com/ppkantorski/Status-Monitor-Overlay/releases/download/v1.4.1%2Br4/Status-Monitor-Overlay.ovl",
+      "type": "ovl",
+      "dest": "/switch/.overlays/Status-Monitor-Overlay.ovl"
+    },
+    {
+      "name": "Switch Internal Speakers v1.0.0",
+      "size": "292 KB",
+      "desc": "Direcione a saída de áudio para os speakers do Switch em modo Dock.",
+      "url": "https://github.com/paulocode/switch_internal_speakers_nro/releases/download/v1.0.0/internal-speaker.nro",
+      "type": "nro",
+      "dest": "/switch/internal-speaker.nro"
+    },
+    {
+      "name": "Switchfin v0.9.4",
+      "size": "62.6 MB",
+      "desc": "Cliente Jellyfin para Nintendo Switch.",
+      "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.4/Switchfin.nro",
+      "type": "nro",
+      "dest": "/switch/Switchfin/Switchfin.nro"
+    },
+    {
+      "name": "Switchiptv v1.0.8",
+      "size": "34.5 MB",
+      "desc": "Client de IPTV para Nintendo Switch",
+      "url": "https://github.com/gomprime/switchiptv/releases/download/v1.0.8/IptvPlayerSwitch.nro",
+      "type": "nro",
+      "dest": "/switch/IptvPlayerSwitch.nro"
+    },
+    {
+      "name": "SwitchNOW v1.2.0",
+      "size": "28.2 MB",
+      "desc": "O SwitchNOW é um cliente homebrew nativo do Nintendo Switch para o GeForce NOW.",
+      "url": "https://github.com/Blade-Punisher/SwitchNOW/releases/download/v1.2.0/SwitchNOW-1.2.0.nro",
+      "type": "nro",
+      "dest": "/switch/SwitchNOW/SwitchNOW.nro"
+    },
+    {
+      "name": "Sys-Clk v2.0.1+r28",
+      "size": "704 KB",
+      "desc": "Overlay para controle de clock do sistema.",
+      "url": "https://github.com/ppkantorski/sys-clk/releases/download/2.0.1%2Br28/sys-clk-overlay.ovl",
+      "type": "ovl",
+      "dest": "/switch/.overlays/sys-clk-overlay.ovl"
+    },
+    {
+      "name": "Sys-Con v1.7.0",
+      "size": "493 KB",
+      "desc": "Conecte qualquer controle USB no seu Nintendo Switch.",
+      "url": "https://github.com/o0Zz/sys-con/releases/download/1.7.0/sys-con-1.7.0.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Sys-DVR v6.3",
+      "size": "3.05 MB",
+      "desc": "Um módulo de sistema que permite capturar a saída do jogo em execução para um computador via conexão USB ou de rede.",
+      "url": "https://github.com/exelix11/SysDVR/releases/download/v6.3/SysDVR.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Sys-Patch v1.6.2.3",
+      "size": "173 KB",
+      "desc": "Patches de assinatura para Atmosphère.",
+      "url": "https://github.com/borntohonk/sys-patch/releases/download/v1.6.2.3/sys-patch-v1.6.2.3.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Sys-Tune v2.1.0+r3",
+      "size": "520 KB",
+      "desc": "Player de audio em plano de fundo para o Nintendo Switch.",
+      "url": "https://github.com/ppkantorski/sys-tune/releases/download/v2.1.0%2Br3/sdout.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Sysmodules v1.5.3",
+      "size": "624 KB",
+      "desc": "Uma Sobreposição Ultrahand/Tesla que permite ativar/desativar módulos do sistema em tempo real.",
+      "url": "https://github.com/ppkantorski/ovl-sysmodules/releases/download/v1.5.3/ovlSysmodules.ovl",
+      "type": "ovl",
+      "dest": "/switch/.overlays/ovlSysmodules.ovl"
+    },
+    {
+      "name": "Themezer v3.2.1",
+      "size": "9.27 MB",
+      "desc": "Navegador de temas para Nintendo Switch.",
+      "url": "https://github.com/suchmememanyskill/themezer-nx/releases/download/3.2.1/themezer-nx.nro",
+      "type": "nro",
+      "dest": "/switch/themezer-nx.nro"
+    },
+    {
+      "name": "Tico v0.7.9",
+      "size": "40.8 MB",
+      "desc": "Um emulador multi-sistemas para Nintendo Switch.",
+      "url": "https://github.com/ticohq/tico/releases/download/0.7.9/tico.nro",
+      "type": "nro",
+      "dest": "/switch/tico/tico.nro"
+    },
+    {
+      "name": "Ticobro v1.0.0",
+      "size": "5.81 MB",
+      "desc": "Ticobro um homebrew para gerenciamento do emulador Tico",
+      "url": "https://github.com/alucardiio-yt/retrosw/releases/download/21.2.0/Ticobro.All.Repositories.Roms.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "TsVitch v0.3.2",
+      "size": "32.7 MB",
+      "desc": "Transforme seu Nintendo Switch em um poderoso dispositivo de streaming multimidia.",
+      "url": "https://github.com/giovannimirulla/TsVitch/releases/download/v0.3.2/TsVitch.nro",
+      "type": "nro",
+      "dest": "/switch/tsvitch/tsvitch.nro"
+    },
+    {
+      "name": "Ultrahand Overlay v2.5.3",
+      "size": "1.02 MB",
+      "desc": "Ultrahand Overlay é um ecossistema de menus sobrepostos totalmente programável para o Nintendo Switch.",
+      "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/download/v2.5.3/sdout.zip",
+      "type": "zip",
+      "dest": "/"
+    },
+    {
+      "name": "Vita 3K NX v1.3.1",
+      "size": "65.9 MB",
+      "desc": "Emulador experimental do PlayStation Vita",
+      "url": "https://github.com/NaGaa95/Vita3K-nx/releases/download/1.3.1/Vita3K.nro",
+      "type": "nro",
+      "dest": "/switch/vita3k/Vita3K.nro"
+    }
+  ]
+}
