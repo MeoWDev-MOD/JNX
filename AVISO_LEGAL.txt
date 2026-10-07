@@ -1,0 +1,12 @@
+AVISO LEGAL - JNX
+
+O JNX e uma compilacao gratuita de programas de terceiros (homebrews) para o Nintendo Switch.
+Se voce pagou por este pacote, voce foi enganado.
+
+- O JNX nao contem sigpatches, chaves, firmwares, jogos, ROMs ou qualquer arquivo protegido por direitos autorais.
+- O JNX nao detem direitos sobre os componentes incluidos. Todo o credito pertence aos seus respectivos autores,
+  e cada componente segue a sua propria licenca. Se um autor pedir a remocao de um arquivo, ele sera removido.
+- O JNX nao incentiva a pirataria. Apoie os desenvolvedores comprando seus jogos.
+- Voce e responsavel por conhecer e respeitar a legislacao do seu pais ao usar este pacote.
+- Este projeto nao e afiliado a Nintendo. Nintendo Switch e marca registrada da Nintendo.
+- Tudo e fornecido "como esta", sem garantias. Use por sua conta e risco.
