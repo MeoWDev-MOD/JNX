@@ -6,14 +6,14 @@
   },
   "app": {
     "version": "2.0.0",
-    "url": "https://github.com/vendashson-rgb/JNX-Updater/releases/latest/download/jnx-update.zip"
+    "url": "https://github.com/MeoWDev-MOD/JNX-Updater/releases/latest/download/jnx-update.zip"
   },
   "pack": {
     "version": "23.0.0-1",
     "atmosphere": "1.12.0",
     "date": "07-10-2026",
     "size": "104 MB",
-    "url": "https://github.com/vendashson-rgb/JNX/releases/download/23.0.0-1/JNX.23.0.0-1.zip",
+    "url": "https://github.com/MeoWDev-MOD/JNX/releases/download/23.0.0-1/JNX.23.0.0-1.zip",
     "sha256": "a623067f8ce6b0baafb7f5c12ebf689f66f2d799ffd3555dbe55ad704a7206d7",
     "changelog": "* Primeira versão pública do JNX para o firmware 23.0.x.\n* Atmosphère 1.12.0 com splash JNX.\n* Hekate v6.5.4 + Nyx em português do Brasil.\n* Sphaira, AIO Switch Updater, Goldleaf, Checkpoint, JKSV, NX-Shell, NX-Activity-Log.\n* Ultrahand, sys-clk, Status Monitor, EdiZon, emuiibo, Mission Control, sys-con e TegraExplorer."
   },
