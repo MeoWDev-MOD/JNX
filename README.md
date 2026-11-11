@@ -1,19 +1,19 @@
 <p align="center"><img src="images/logo.png" width="180" alt="JNX"></p>
 
-# JNX 23.0.0-1
+# JNX 23.5.0-0
 
-Pacote gratuito de homebrews para Nintendo Switch (firmware 23.0.x), em português do Brasil.
+Pacote gratuito de homebrews para Nintendo Switch (firmware 23.5.0), em português do Brasil.
 Se você pagou por ele, você foi enganado.
 
 ## Download
 
-Baixe o `JNX.23.0.0-1.zip` na aba [**Releases**](../../releases/latest) e extraia **todo o conteúdo na raiz do cartão SD**.
+Baixe o `JNX-23.5.0-0.zip` na aba [**Releases**](../../releases/latest) e extraia **todo o conteúdo na raiz do cartão SD**.
 
 ## Instalação
 
 1. Desligue o console e retire o cartão SD (FAT32 ou exFAT).
 2. Copie todo o conteúdo para a raiz do SD, substituindo arquivos se perguntado.
-3. Entre no modo RCM e envie o `payload.bin`.
+3. Inicie o `payload.bin` (por modchip ou modo RCM).
 4. No menu do Hekate escolha:
    - **Desbloqueado**: usa uma cópia do sistema no SD (recomendado, protege o sistema original).
    - **Semi-Desbloqueado**: usa o sistema original com os homebrews.
@@ -23,9 +23,9 @@ Baixe o `JNX.23.0.0-1.zip` na aba [**Releases**](../../releases/latest) e extrai
 
 ## O que vem no pacote
 
-Atmosphère 1.12.0, Hekate 6.5.4 + Nyx (pt-BR), Sphaira, AIO Switch Updater, Goldleaf, Checkpoint, JKSV, NX-Shell,
-NX-Activity-Log, NX Theme Installer, Ultrahand, sys-clk, Status Monitor, EdiZon, emuiibo, Mission Control,
-sys-con e TegraExplorer.
+Atmosphère 1.12.2, Hekate 6.5.5 + Nyx (pt-BR), JNX Updater 3.0, Sphaira, AIO Switch Updater, Goldleaf, Checkpoint, JKSV,
+NX-Shell, NX-Activity-Log, Ultrahand, sys-clk, Status Monitor, EdiZon, emuiibo, Mission Control, sys-con e TegraExplorer,
+entre outros.
 
 ## Aviso
 
