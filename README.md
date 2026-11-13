@@ -2,6 +2,8 @@
 
 # JNX 23.5.0-0
 
+🌐 **[Read in English](README.en.md)**
+
 Pacote gratuito de homebrews para Nintendo Switch (firmware 23.5.0), em português do Brasil.
 Se você pagou por ele, você foi enganado.
 
